@@ -17,6 +17,13 @@ jobs:
       - name: Print hello world
         run: echo "Hello world"
         shell: bash
+      
+  Welocme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Welcome
+        run: echo "Welcome NVPT"
+        shell: bash
 
  
 
